@@ -1,8 +1,8 @@
 'use strict';
 
-const { isUserType, isType } = require('lib/util');
-const Metadata = require('internal/meta');
-const symbols = require('internal/symbols');
+const { isUserType, isType } = require('./util');
+const Metadata = require('../internal/meta');
+const symbols = require('../internal/symbols');
 
 module.exports = {
   encodingLength,

@@ -1,6 +1,6 @@
 'use strict';
 
-const { encodingLength } = require('lib/encoding-length');
+const { encodingLength } = require('../src/lib/encoding-length');
 
 describe('encodingLength', () => {
   test('should use schema', () => {

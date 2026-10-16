@@ -1,6 +1,6 @@
 'use strict';
 
-const bool = require('types/bool');
+const bool = require('../../src/types/bool');
 
 describe('bool', () => {
   test('encode positive', () => {

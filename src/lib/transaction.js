@@ -1,7 +1,7 @@
 'use strict';
 
 const createFunction = require('generate-function');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const NotEnoughDataError = require('./not-enough-data-error');
 
 /**
  * Helps to read the whole data chunk.

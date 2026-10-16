@@ -1,6 +1,6 @@
 'use strict';
 
-const { isType } = require('lib/util');
+const { isType } = require('../lib/util');
 
 module.exports = bool;
 

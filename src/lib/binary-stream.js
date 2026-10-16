@@ -2,8 +2,8 @@
 
 const { Transform } = require('stream');
 const createFunction = require('generate-function');
-const BufferList = require('internal/buffer-list');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const BufferList = require('../internal/buffer-list');
+const NotEnoughDataError = require('./not-enough-data-error');
 
 const kbuffer = Symbol('buffer');
 

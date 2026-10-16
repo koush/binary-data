@@ -1,6 +1,6 @@
 'use strict';
 
-const BinaryStream = require('lib/binary-stream');
+const BinaryStream = require('../../src/lib/binary-stream');
 
 describe('encode fixed', () => {
   const suites = [

@@ -1,9 +1,9 @@
 'use strict';
 
-const { isType, isUserType, isDecodeType } = require('lib/util');
-const BinaryStream = require('lib/binary-stream');
-const symbols = require('internal/symbols');
-const Metadata = require('internal/meta');
+const { isType, isUserType, isDecodeType } = require('./util');
+const BinaryStream = require('./binary-stream');
+const symbols = require('../internal/symbols');
+const Metadata = require('../internal/meta');
 
 module.exports = {
   decode,

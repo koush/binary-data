@@ -1,10 +1,10 @@
 'use strict';
 
-jest.mock('lib/binary-stream');
+jest.mock('../src/lib/binary-stream');
 
-const reserved = require('types/reserved');
-const when = require('types/when');
-const { decode } = require('lib/decode');
+const reserved = require('../src/types/reserved');
+const when = require('../src/types/when');
+const { decode } = require('../src/lib/decode');
 
 describe('decode', () => {
   test('should use schema', () => {

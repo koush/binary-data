@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('internal/linked-list');
+const LinkedList = require('../../src/internal/linked-list');
 
 test('push(buf)', () => {
   const buf1 = Buffer.from([1, 2, 3, 4, 5]);

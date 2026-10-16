@@ -1,7 +1,7 @@
 'use strict';
 
-const when = require('types/when');
-const symbols = require('internal/symbols');
+const when = require('../../src/types/when');
+const symbols = require('../../src/internal/symbols');
 
 describe('when', () => {
   test('encode positive', () => {

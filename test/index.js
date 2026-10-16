@@ -1,6 +1,6 @@
 'use strict';
 
-const binary = require('index');
+const binary = require('../src');
 
 describe('createDecodeStream', () => {
   test('should accept buffer as first argument', () => {

@@ -1,11 +1,11 @@
 'use strict';
 
-const { decodeCommon } = require('lib/decode');
-const { encodeCommon } = require('lib/encode');
-const { encodingLengthCommon } = require('lib/encoding-length');
-const { isType, isFunction } = require('lib/util');
-const symbols = require('internal/symbols');
-const Metadata = require('internal/meta');
+const { decodeCommon } = require('../lib/decode');
+const { encodeCommon } = require('../lib/encode');
+const { encodingLengthCommon } = require('../lib/encoding-length');
+const { isType, isFunction } = require('../lib/util');
+const symbols = require('../internal/symbols');
+const Metadata = require('../internal/meta');
 
 module.exports = reserved;
 

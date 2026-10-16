@@ -1,6 +1,6 @@
 'use strict';
 
-const string = require('types/string');
+const string = require('../../src/types/string');
 
 describe('string', () => {
   describe('null string', () => {

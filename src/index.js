@@ -1,19 +1,19 @@
 'use strict';
 
-const BinaryStream = require('lib/binary-stream');
-const array = require('types/array');
-const buffer = require('types/buffer');
-const bool = require('types/bool');
-const reserved = require('types/reserved');
-const string = require('types/string');
-const numbers = require('types/numbers');
-const when = require('types/when');
-const select = require('types/select');
-const { encode } = require('lib/encode');
-const { decode } = require('lib/decode');
-const { encodingLength } = require('lib/encoding-length');
-const Transaction = require('lib/transaction');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const BinaryStream = require('./lib/binary-stream');
+const array = require('./types/array');
+const buffer = require('./types/buffer');
+const bool = require('./types/bool');
+const reserved = require('./types/reserved');
+const string = require('./types/string');
+const numbers = require('./types/numbers');
+const when = require('./types/when');
+const select = require('./types/select');
+const { encode } = require('./lib/encode');
+const { decode } = require('./lib/decode');
+const { encodingLength } = require('./lib/encoding-length');
+const Transaction = require('./lib/transaction');
+const NotEnoughDataError = require('./lib/not-enough-data-error');
 
 const types = {
   array,

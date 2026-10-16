@@ -1,8 +1,8 @@
 'use strict';
 
-const symbols = require('internal/symbols');
-const { decodeCommon } = require('lib/decode');
-const Metadata = require('internal/meta');
+const symbols = require('../internal/symbols');
+const { decodeCommon } = require('../lib/decode');
+const Metadata = require('../internal/meta');
 
 module.exports = select;
 

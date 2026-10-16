@@ -1,6 +1,6 @@
 'use strict';
 
-const symbols = require('internal/symbols');
+const symbols = require('./symbols');
 
 /**
  * Store extended info between encode/decode calls.

@@ -1,8 +1,8 @@
 'use strict';
 
-const BinaryStream = require('lib/binary-stream');
-const Transaction = require('lib/transaction');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const BinaryStream = require('../src/lib/binary-stream');
+const Transaction = require('../src/lib/transaction');
+const NotEnoughDataError = require('../src/lib/not-enough-data-error');
 
 test('shoud work', () => {
   const stream = new BinaryStream();

@@ -1,8 +1,8 @@
 'use strict';
 
-const when = require('types/when');
-const select = require('types/select');
-const symbols = require('internal/symbols');
+const when = require('../../src/types/when');
+const select = require('../../src/types/select');
+const symbols = require('../../src/internal/symbols');
 
 describe('select', () => {
   const defaultValue = 322;

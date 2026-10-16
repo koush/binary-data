@@ -1,6 +1,6 @@
 'use strict';
 
-const BufferList = require('internal/buffer-list');
+const BufferList = require('../../src/internal/buffer-list');
 
 test('append(Buffer)', () => {
   const bl = new BufferList();

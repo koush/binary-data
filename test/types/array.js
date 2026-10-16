@@ -1,6 +1,6 @@
 'use strict';
 
-const array = require('types/array');
+const array = require('../../src/types/array');
 
 describe('array', () => {
   const rstream = {};

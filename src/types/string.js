@@ -1,7 +1,7 @@
 'use strict';
 
-const { isType } = require('lib/util');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const { isType } = require('../lib/util');
+const NotEnoughDataError = require('../lib/not-enough-data-error');
 
 module.exports = string;
 

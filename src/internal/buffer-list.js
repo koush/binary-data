@@ -1,7 +1,7 @@
 'use strict';
 
 const createFunction = require('generate-function');
-const LinkedList = require('internal/linked-list');
+const LinkedList = require('./linked-list');
 
 /**
  * An optimised partial implementation of Buffer list from `bl`.

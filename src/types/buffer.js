@@ -1,8 +1,8 @@
 'use strict';
 
-const { isType, isFunction } = require('lib/util');
-const NotEnoughDataError = require('lib/not-enough-data-error');
-const BinaryStream = require('lib/binary-stream');
+const { isType, isFunction } = require('../lib/util');
+const NotEnoughDataError = require('../lib/not-enough-data-error');
+const BinaryStream = require('../lib/binary-stream');
 
 module.exports = buffer;
 

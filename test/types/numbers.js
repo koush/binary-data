@@ -1,7 +1,7 @@
 'use strict';
 
 /* eslint-disable max-lines */
-const types = require('types/numbers');
+const types = require('../../src/types/numbers');
 
 describe('doublebe', () => {
   const numberType = types.doublebe;

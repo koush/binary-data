@@ -1,7 +1,7 @@
 'use strict';
 
-const BinaryStream = require('lib/binary-stream');
-const NotEnoughDataError = require('lib/not-enough-data-error');
+const BinaryStream = require('../../src/lib/binary-stream');
+const NotEnoughDataError = require('../../src/lib/not-enough-data-error');
 
 describe('decode', () => {
   test('readBuffer', () => {

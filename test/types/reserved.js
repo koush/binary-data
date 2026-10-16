@@ -1,6 +1,6 @@
 'use strict';
 
-const reserved = require('types/reserved');
+const reserved = require('../../src/types/reserved');
 
 describe('reserved', () => {
   describe('argument `size` is number', () => {

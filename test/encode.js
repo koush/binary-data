@@ -1,8 +1,8 @@
 'use strict';
 
-const reserved = require('types/reserved');
-const { encode } = require('lib/encode');
-const BinaryStream = require('lib/binary-stream');
+const reserved = require('../src/types/reserved');
+const { encode } = require('../src/lib/encode');
+const BinaryStream = require('../src/lib/binary-stream');
 
 describe('encode', () => {
   test('should encode objects using schema', () => {
