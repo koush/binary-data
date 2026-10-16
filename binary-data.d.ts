@@ -11,7 +11,7 @@ type Types = {
   select: any;
 };
 declare const types: Types;
-type Encode = (o: object, spec: object) => { slice: () => number[] };
+type Encode = (o: object, spec: object) => Buffer;
 declare const encode: Encode;
 
 type Decode = (buf: Buffer, spec: object) => any;
